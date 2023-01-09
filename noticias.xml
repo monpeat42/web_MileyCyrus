@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title> Mi canal RSS</title>
+<link>https://mileycyrus1.000webhostapp.com/</link>
+<description>Noticias musicales</description>
+<item>
+<title>Noticias de Rock</title>
+<link>https://www.rockfm.fm/</link>
+<description>Noticias de Rock FM</description>
+</item>
+<item>
+<title>Vikipedia de Miley Cyrus</title>
+<link>https://es.wikipedia.org/wiki/Miley_Cyrus</link>
+<description>Aqui podemos ver la descripción de Miley Cyrus y de la carrera artistica que ha seguido a lo largo de los años</description>
+</item>
+<item>
+<title>Miley Cyrus Country</title>
+<link>https://tasteofcountry.com/miley-cyrus-country-music/</link>
+<description>Miley Cyrus a parte de una cantante de Rock  tambien hace musica Country</description>
+</item>
+</channel>
+</rss>
