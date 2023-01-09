@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="cat">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Pàgina web de la Miley Cyrus">
+    <meta name="author" content="Maria Monpeat">
+    <link rel="icon" href="favicon.ico">
+    <title>Miley Cyrus</title>
+    
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Place your stylesheet here-->
+    <link href="css/estils.css" rel="stylesheet" type="text/css">
+    <!--esta linea fa que la pestanya de cokies s'enva quan li dones a aceptar, script serveix per que el lado del cliente trabaje y no del servidor-->
+    <script src="js/script.js"></script>
+</head>
+
+<body id="index">
+    
+ <?php include 'encabezado.php';?>
+    
+    <main role="main" class="container">
+        <div class="row pt-5 mt-5"><!--mt margin top pt padding to-->
+            <div class="col-md-12">
+                <h1 class="text-center"> Miley Cyrus</h1>
+            </div>
+            <div class="col-md-4">
+                <center>
+                 &nbsp; &nbsp; &nbsp; <img src="img/T1.png" alt="Miley Cyrus" class="img-fuid" width="300" height="300">
+                   <br> &nbsp; &nbsp; &nbsp;<!---<input type="button" value="comprar" name="bt1" id="bt1">-->
+                    <button type="submit" class="btn btn-dark" style="background-color:deeppink;">Comprar</button>
+                 </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                 &nbsp; &nbsp; &nbsp; <img src="img/T2.png" alt="Miley Cyrus" class="img-fuid" width="300" height="300">
+                   <br> &nbsp; &nbsp; &nbsp;
+                    <button type="submit" class="btn btn-dark" style="background-color:deeppink;">Comprar</button>
+                 </center>
+            </div>
+            
+             <div class="col-md-4">
+                 <center>
+                 &nbsp; &nbsp; &nbsp; <img src="img/T3.png" alt="Miley Cyrus" class="img-fuid" width="300" height="300">
+                   <br> &nbsp; &nbsp; &nbsp;
+                    <button type="submit" class="btn btn-dark" style="background-color:deeppink;">Comprar</button>
+                 </center>
+            </div>
+            
+            --------------------------------------------------------------------------------------
+            <div class="col-md-4">
+                <center>
+                 &nbsp; &nbsp; &nbsp; <img src="img/T4.png" alt="Miley Cyrus" class="img-fuid" width="300" height="300">
+                   <br> &nbsp; &nbsp; &nbsp;
+                    <button type="submit" class="btn btn-dark" style="background-color:deeppink;">Comprar</button>
+                 </center>
+            </div>   
+            <div class="col-md-4">
+                <center>
+                 &nbsp; &nbsp; &nbsp; <img src="img/T5.png" alt="Miley Cyrus" class="img-fuid" width="300" height="300">
+                   <br> &nbsp; &nbsp; &nbsp;
+                    <button type="submit" class="btn btn-dark" style="background-color:deeppink;">Comprar</button>
+                 </center>
+            </div>   
+             <div class="col-md-4">
+                <center>
+                 &nbsp; &nbsp; &nbsp; <img src="img/T6.png" alt="Miley Cyrus" class="img-fuid" width="300" height="300">
+                   <br> &nbsp; &nbsp; &nbsp;
+                    <button type="submit" class="btn btn-dark" style="background-color:deeppink;">Comprar</button>
+                 </center>
+            </div>   
+        </div>
+           
+
+    <?php include 'footer.php';?>
+    
+   
+    
+
+      
+      <div class="cookiesms" id="cookie1"><!--id sirve para referite a ella en el java script, va al script.js-->
+        Esta web utiliza cookies, puedes ver nuestra <a href="https://shop.mileycyrus.com/">política de privacidad</a>
+        Si continuas navegando estás aceptándola
+        <button onclick="controlcookies()">Aceptar</button><!--onclic fa llami a la funcion control de cokkies-->
+        <div class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de
+            cookies + </div>
+    </div>
+    <script type="text/javascript">
+        if (localStorage.controlcookie > 0) {
+            document.getElementById('cookie1').style.bottom = '-50px';
+        }
+      </script>
+    </div>
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/scriptd.js"></script>
+</body>
+</html>
